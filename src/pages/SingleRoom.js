@@ -43,16 +43,16 @@ class SingleRoom extends Component {
                 </div>
                 <div className="single-room-info">
                     <article classname="desc">
-                        <h3>details</h3>
+                        <h3>Details</h3>
                         <p>{description}</p>
                     </article>
                     <article classname="info">
-                        <h3>info</h3>
+                        <h3>Info</h3>
                         <h6>Price: ${price}</h6>
-                        <h6>Size: {size} SQFT</h6>
+                        <h6>Size: {size} M2</h6>
                         <h6>Max Capacity:{" "} {capacity>1 ?`${capacity} people`: `${capacity} person`} </h6>
-                        <h6>{pets ? "pets allowes" : "no pets allowed"} </h6>
-                        <h6>{breakfast && "free breakfast included"} </h6>
+                        <h6>{pets ? "Pets allowed" : "No pets allowed"} </h6>
+                        <h6>{breakfast && "Free breakfast included"} </h6>
                     </article>
 
                 </div>
