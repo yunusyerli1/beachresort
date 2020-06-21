@@ -70,7 +70,7 @@ const getUnique = (items, value) => {
                 {/*end of room price */}
                 {/*size */}
                 <div className="form-group">
-                     <label htmlFor="size">room size</label>
+                     <label htmlFor="size">room size (m2)</label>
                      <div className="size-inputs">
                          <input 
                             type="number" 
