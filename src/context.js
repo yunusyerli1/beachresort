@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import items from './data';
+//import Client from './Contentful';
+
+
 
 const RoomContext = React.createContext();
 
@@ -21,7 +24,7 @@ class RoomProvider extends Component {
         pets: false
     };
 
-    //getData
+
     componentDidMount() {
         let rooms = this.formatData(items);
         let featuredRooms = rooms.filter(room => room.featured===true);
